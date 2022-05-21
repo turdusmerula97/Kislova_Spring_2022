@@ -86,16 +86,17 @@ Then we compared the results of the DegenPrimer predictions with our real lab da
 
 We obtained predictions of possible PCR products and their concentrations.
 
-[![Predicted products and their concentrations](https://github.com/turdusmerula97/picturesBI22/blob/main/image_2022-05-21_23-28-39.png)
+![Predicted products and their concentrations](https://github.com/turdusmerula97/picturesBI22/blob/main/image_2022-05-21_23-28-39.png)
 
-[![Electronogram of the possible products](https://github.com/turdusmerula97/picturesBI22/blob/main/image_2022-05-21_23-28-08.png)
+![Electronogram of the possible products](https://github.com/turdusmerula97/picturesBI22/blob/main/image_2022-05-21_23-28-08.png)
+
 The predicted primers duplexes and PCR products did not fully match the real lab data - DegenPrimer have found some non-existing duplexes and amplicons and have not found some of the existing ones - the accuracy of the predictions varied from 60 to 75%.
 
 While using real primers concentrations for the analysis, the tool predicted quick and full saturation of the system, which is not confirmed by the lab data. To get amount of products to check the correlation, we needed to reduce the concentrations of primers in 100 times.
 
 We did not find any correlation between the predicted product concentrations and amplicons coverage profiles. The average Pearson correlation coefficient for the pools of primers was 0.095.
 
-[![The example of the comparison between the possible products concentrations and the coverage profiles of the real amplicons](https://github.com/turdusmerula97/picturesBI22/blob/main/image_2022-05-21_23-27-45.png)
+![The example of the comparison between the possible products concentrations and the coverage profiles of the real amplicons](https://github.com/turdusmerula97/picturesBI22/blob/main/image_2022-05-21_23-27-45.png)
 
 ## Conclusion
 Due to the fact that the results, obtained by DegenPrimer, were not fully matching the real data from the lab (annealing sites, duplexes and possible products) and predicted PCR concentrations did not correlate with the amplicons coverage profiles, it was decided that this tool is not suitable for *in silico* validation of the multiplex target panels
