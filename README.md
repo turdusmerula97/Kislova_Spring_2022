@@ -67,6 +67,7 @@ The other option is to use BLAST queries instead of built-in alignment mechanism
 So the BLAST mode is on and its possible to restrict the search area to the single organism or a group of organisms.
 
 The .cfg file looks like this:
+
 ![Primers](https://github.com/turdusmerula97/picturesBI22/blob/main/primers.jpeg)
 
 We used the same parameters as in the lab process.
@@ -93,6 +94,7 @@ The predicted primers duplexes and PCR products did not fully match the real lab
 While using real primers concentrations for the analysis, the tool predicted quick and full saturation of the system, which is not confirmed by the lab data. To get amount of products to check the correlation, we needed to reduce the concentrations of primers in 100 times.
 
 We did not find any correlation between the predicted product concentrations and amplicons coverage profiles. The average Pearson correlation coefficient for the pools of primers was 0.095.
+
 [![The example of the comparison between the possible products concentrations and the coverage profiles of the real amplicons](https://github.com/turdusmerula97/picturesBI22/blob/main/image_2022-05-21_23-27-45.png)
 
 ## Conclusion
