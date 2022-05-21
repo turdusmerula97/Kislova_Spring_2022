@@ -31,7 +31,7 @@ DegenPrimer, developed in 2015 by Evgeniy Taranov, performs sophisticated analys
 - primer specificity checks with automated BLAST queries and consequent PCR simulation using BLAST results as matrices; 
 - simulation of electrophoresis; and automated optimization of PCR conditions.
 
-[![DegenPrimer workflow](DegenPrimer workflow)](http://https://github.com/turdusmerula97/Kislova_Spring_2022/blob/main/DegenPrimer-algorithm-en.png)
+[![DegenPrimer workflow](DegenPrimer workflow)](https://github.com/turdusmerula97/picturesBI22/blob/main/DegenPrimer-algorithm-en.png)
 
 Aside from the sequences of the primers, matrices, and PCR conditions (such as Na + and Mg 2+ concentrations) PCR simulation takes into account concentrations of secondary structures, primer dimers, all annealing sites and alternative annealing conformations with mismatches, predicting not only the probable products but also their yields.
 
@@ -67,7 +67,7 @@ The other option is to use BLAST queries instead of built-in alignment mechanism
 So the BLAST mode is on and its possible to restrict the search area to the single organism or a group of organisms.
 
 The .cfg file looks like this:
-![Primers](http://https://github.com/turdusmerula97/Kislova_Spring_2022/blob/main/primers.jpeg)
+![Primers](https://github.com/turdusmerula97/picturesBI22/blob/main/primers.jpeg)
 
 We used the same parameters as in the lab process.
 
@@ -85,15 +85,15 @@ Then we compared the results of the DegenPrimer predictions with our real lab da
 
 We obtained predictions of possible PCR products and their concentrations.
 
-[![Predicted products and their concentrations](DegenPrimer output)](https://github.com/turdusmerula97/Kislova_Spring_2022/blob/main/image_2022-05-21_23-28-39.png)
+[![Predicted products and their concentrations](DegenPrimer output)](https://github.com/turdusmerula97/picturesBI22/blob/main/image_2022-05-21_23-28-39.png)
 
-[![Electronogram of the possible products](Electronogram of products)](http://https://github.com/turdusmerula97/Kislova_Spring_2022/blob/main/image_2022-05-21_23-28-08.png)
+[![Electronogram of the possible products](Electronogram of products)](https://github.com/turdusmerula97/picturesBI22/blob/main/image_2022-05-21_23-28-08.png)
 The predicted primers duplexes and PCR products did not fully match the real lab data - DegenPrimer have found some non-existing duplexes and amplicons and have not found some of the existing ones - the accuracy of the predictions varied from 60 to 75%.
 
 While using real primers concentrations for the analysis, the tool predicted quick and full saturation of the system, which is not confirmed by the lab data. To get amount of products to check the correlation, we needed to reduce the concentrations of primers in 100 times.
 
 We did not find any correlation between the predicted product concentrations and amplicons coverage profiles. The average Pearson correlation coefficient for the pools of primers was 0.095.
-[![The example of the comparison between the possible products concentrations and the coverage profiles of the real amplicons](table "The example of the comparison between the possible products concentrations and the coverage profiles of the real amplicons")](httphttps://github.com/turdusmerula97/Kislova_Spring_2022/blob/main/image_2022-05-21_23-27-45.png:// "The example of the comparison between the possible products concentrations and the coverage profiles of the real amplicons")
+[![The example of the comparison between the possible products concentrations and the coverage profiles of the real amplicons](table)](https://github.com/turdusmerula97/picturesBI22/blob/main/image_2022-05-21_23-27-45.png)
 
 ## Conclusion
 Due to the fact that the results, obtained by DegenPrimer, were not fully matching the real data from the lab (annealing sites, duplexes and possible products) and predicted PCR concentrations did not correlate with the amplicons coverage profiles, it was decided that this tool is not suitable for *in silico* validation of the multiplex target panels
