@@ -31,7 +31,7 @@ DegenPrimer, developed in 2015 by Evgeniy Taranov, performs sophisticated analys
 - primer specificity checks with automated BLAST queries and consequent PCR simulation using BLAST results as matrices; 
 - simulation of electrophoresis; and automated optimization of PCR conditions.
 
-[![DegenPrimer workflow](https://github.com/turdusmerula97/picturesBI22/blob/main/DegenPrimer-algorithm-en.png)
+![DegenPrimer workflow](https://github.com/turdusmerula97/picturesBI22/blob/main/DegenPrimer-algorithm-en.png)
 
 Aside from the sequences of the primers, matrices, and PCR conditions (such as Na + and Mg 2+ concentrations) PCR simulation takes into account concentrations of secondary structures, primer dimers, all annealing sites and alternative annealing conformations with mismatches, predicting not only the probable products but also their yields.
 
