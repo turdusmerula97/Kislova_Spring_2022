@@ -1,4 +1,4 @@
-#*In silico* modeling of coverage profiles for multiplex target panels
+# *In silico* modeling of coverage profiles for multiplex target panels
 
 ### Authors
 Anastasia Kislova
