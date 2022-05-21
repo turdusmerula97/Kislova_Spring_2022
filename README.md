@@ -2,6 +2,7 @@
 
 ### Authors
 Anastasia Kislova
+
 Ivan Pyankov (Supervisor)
 
 ## Environment
